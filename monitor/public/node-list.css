@@ -1,0 +1,178 @@
+body{
+    background-color: #46120c;
+}
+
+#leftColumn {
+    width: 49%;
+    float: left;
+    background-color: #b49fb8;
+}
+
+#rightColumn {
+    width: 49%;
+    float: right;
+    background-color: #b49fb8;
+}
+
+.info{
+    margin-top: 0;
+    margin-bottom:0;
+    vertical-align: top;
+}
+
+.jobs{
+    margin-top: 0;
+    margin-bottom:0;
+    vertical-align: top;
+}
+
+
+
+.icons{
+    padding: 0em;
+    border: 0px solid;
+    background-color: #b87d44;
+}
+
+.tt{
+    width: 100%;
+}
+.icon_small{
+    width:15px;
+    height:15px;
+}
+.icon_large{
+    width:30px;
+    height:30px;
+}
+
+.para{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: "Sans-serif";
+}
+
+.para2{
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 20px;
+    font-family: "Sans-serif";
+}
+
+
+.node {
+    border: 1px solid #8080ff;
+    line-height: 50%;
+}
+
+.nok {
+    padding: 0em;
+    border: 0px solid;
+    background-color: #ff8c85;
+}
+
+.ok {
+    padding: 0em;
+    border: 0px solid;
+    background-color: #c7ff73;
+}
+
+.offline {
+    background-color: #2321ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#node-list .node .name {
+    border: 1px solid transparent;
+    margin: -0.1em 0.25em;
+    padding: 0.25em;
+}
+#node-list .node .status {
+    border: 1px solid transparent;
+    margin: -0.1em 0.25em;
+    padding: 0.25em;
+}
+#node-list .node .lastseen {
+    border: 1px solid transparent;
+    margin: -0.1em 0.25em;
+    padding: 0.25em;
+}
+
+
+
+
+#node-list .statement:hover .label {
+    border: 1px dashed #8080ff;
+}
+
+#node-list .statement .handle,
+#node-list .statement .del {
+    width: 1em;
+    text-align: center;
+}
+
+#node-list .statement .handle {
+    order: 1;
+    border: 1px solid #8080ff;
+    background-color: #f0f0ff;
+    cursor: ns-resize;
+}
+
+#node-list .statement .del {
+    order: 2;
+    border: 2px solid #d2ff00;
+    background-color: #c0ff00;
+    font-family: monospace;
+}
+
+
+
+#node-list2 {
+    float: left;
+    width: 50%;
+    border: 1px solid #8080ff;
+    background-color: #f0f0ff;
+    padding: 1em;
+    list-style-type: none;
+    display: flex;
+}
+
+#node-list li {
+    border: 2px solid transparent;
+    height: 1.25em;
+    margin: 0.25em 0;
+}
+
+#node-list li.list-title {
+    color:red;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}

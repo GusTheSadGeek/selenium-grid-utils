@@ -1,0 +1,11 @@
+$grid_ref=1
+$host_name='pluto'
+$rdp_port=5000
+$grid_port=6000
+$wd_port=17000
+$max_ie=0
+$max_ff=1
+$max_ch=1
+$max_saf=0
+$max_sessions=2
+$hub_url='lonselhub.we7.local:17000'
